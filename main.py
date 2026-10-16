@@ -11,7 +11,7 @@ st.set_page_config(page_title="영화 유형 나누기", page_icon="🎬", layou
 st.title("🎬 영화 유형 나누기")
 st.caption("정답 열 없이, 내가 고른 속성이 비슷한 영화끼리 묶습니다.")
 
-MOVIES = "https://raw.githubusercontent.com/greatsong/modudata/main/data/kobis_movies.csv"
+MOVIES = "https://raw.githubusercontent.com/it-teacher-go/data-share-/main/kobis_movies.csv"
 기호 = ["㉮", "㉯", "㉰", "㉱", "㉲", "㉳", "㉴"]          # 묶음 번호 대신 사용하는 표시
 속성 = ["스크린 수(로그)", "누적 관객(로그)", "10위권 일수", "롱런 지수"]
 원래단위 = ["스크린 수", "누적 관객", "10위권 일수", "롱런 지수"]
