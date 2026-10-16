@@ -15,7 +15,7 @@ st.set_page_config(
 st.title("🎬 영화 유형 나누기")
 st.caption("정답 열 없이, 내가 고른 속성이 비슷한 영화끼리 묶습니다.")
 
-MOVIES = "https://raw.githubusercontent.com/greatsong/modudata/main/data/kobis_movies.csv"
+MOVIES = "https://raw.githubusercontent.com/it-teacher-go/data-share-/main/kobis_movies.csv"
 
 기호 = ["㉮", "㉯", "㉰", "㉱", "㉲", "㉳", "㉴"]
 
